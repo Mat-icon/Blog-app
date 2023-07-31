@@ -1,0 +1,46 @@
+.homepage{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: whitesmoke;
+}
+
+.post-container{
+ width: 50%;
+ height: 300px;
+ background: whitesmoke;
+ margin-top: 12px;
+ padding: 10px 20px;
+ position: relative;
+ border-radius: 12px;
+ overflow: hidden;
+ border: 1px solid gray;
+}
+
+.post-text{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-size: 18px;
+}
+
+.postTitle h2{
+    width: 70%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.delete{
+    position: absolute;
+    right: 10px;
+    background: lightblue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+}
